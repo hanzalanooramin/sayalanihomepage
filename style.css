@@ -1,10 +1,52 @@
-.facebook{
-    width: 30px;
-    height: 30px;
+.play-icon {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  left: 42%;
+  position: absolute;
+  top: 35%;
 }
-div{
-    background-color: blue;
+
+.play-icon-img {
+  background: url(./images/khuddam/video-play-icon.png) no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  height: 100px;
+  width: 100px;
+  outline: none;
 }
-.class{
-    background-color: blue;
+
+blockquote {
+  margin-top: 30px;
+  color: #757575;
+  border-left-color: #3F51B5;
+  padding: 0 20px;
+}
+
+.date {
+  background: #FF4081;
+  display: inline-block;
+  color: #FFFFFF;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .timeline::before {
+    left: 50px;
+  }
+  .wow fadeInRightBig {
+    color: black;
+  }
 }
